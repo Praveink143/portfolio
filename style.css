@@ -25,3 +25,10 @@ footer{display:flex;justify-content:space-between;padding:23px 8vw;border-top:1p
 .language-grid div{min-height:105px;display:flex;flex-direction:column;justify-content:center}.language-grid div:first-child{border-top-color:#3b2023}
 
 .ai-security-grid article{background:linear-gradient(135deg,#090909,#100708)}
+
+.education-list{display:grid;gap:0;border-top:1px solid rgba(255,255,255,.14)}
+.education-item{display:grid;grid-template-columns:150px 1fr;gap:28px;padding:26px 0;border-bottom:1px solid rgba(255,255,255,.14)}
+.edu-year{font-family:monospace;color:#ff1726;font-weight:700;letter-spacing:.04em}
+.edu-content h3{margin:0 0 8px;font-size:20px}
+.edu-content p{margin:0;color:rgba(255,255,255,.68)}
+@media(max-width:700px){.education-item{grid-template-columns:1fr;gap:8px}}
